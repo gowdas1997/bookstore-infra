@@ -1,0 +1,4 @@
+# AWS-0132 accepted risk (owner decision Oct 16 2026): state bucket uses SSE-S3 (AES256), no customer managed KMS key.
+# Compensating controls: private bucket, TLS-only policy, versioning, least-privilege IAM, prevent_destroy.
+# Revisit if compliance requires key-level audit or rotation control.
+AWS-0132
